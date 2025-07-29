@@ -17,7 +17,7 @@ package ch02_variable;
 public class Main {
     public static void main(String[] args) {
         System.out.println("안녕하세요");
-//        System.out.println(안녕하세요); _> 오류발생
+//        System.out.println(안녕하세요); -> 오류발생
         System.out.println(1);
         System.out.println('1');
         System.out.println("1");

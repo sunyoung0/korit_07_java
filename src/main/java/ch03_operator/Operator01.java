@@ -9,7 +9,6 @@ package ch03_operator;
  */
 
 public class Operator01 {
-
     public static void main(String[] args) {
         // 변수 선언 및 초기화
         int i = 10;
@@ -81,7 +80,9 @@ public class Operator01 {
 
         int age = 10;
         System.out.println("제 나이는 " + age + "살 입니다.");
-        System.out.println("내년에는 " + age + 1 + "살이 됩니다.");
+        System.out.println("내년에는 " + (age + 1) + "살이 됩니다.");
+
+        // Operator02 생성
 
     }
 
