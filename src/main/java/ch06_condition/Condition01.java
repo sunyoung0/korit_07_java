@@ -6,10 +6,6 @@ package ch06_condition;
              형식 - if(조건식) { 조건식 : true/false로 결론이 날 수 있는 식 또는 문장
                          실행문
                    }
-
-
-
-
  */
 
 import java.util.Scanner;

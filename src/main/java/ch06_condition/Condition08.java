@@ -15,7 +15,7 @@ package ch06_condition;
 
             이상의 조건을 만족하는 윤년 계산기를 작성하고,
             Scanner를 import,
-            year 변수에 값을 때입했을 때 윤년인지 아닌지를 판단할 수 있도록 하시오.
+            year 변수에 값을 대입했을 때 윤년인지 아닌지를 판단할 수 있도록 하시오.
  */
 
 import java.util.Scanner;
