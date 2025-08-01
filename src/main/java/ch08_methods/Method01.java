@@ -38,6 +38,7 @@ public class Method01 {
     /*
         return이 있는 이유는 기본적으로 데이터의 조작을 위해서입니다. 그리고 특정 메서드의 결과값이
         다른 메서드의 argument로 사용될 수도 있습니다.
+        sout을 넣으면 데이터의 가공이 불가능
 
         함수형 프로그래밍(Functional Programming) :
             메서드1의 return 값이 메서드2의 argument가 되고, 메서드2의 return 값이

@@ -74,7 +74,7 @@ public class Loop08 {
 //                System.out.print(" ");
 //            }
 //            // 별을 책임지는 for문    -> 별은 줄어들어야 함.
-//            for (int k = 5; k > 5 - i; k++) {
+//            for (int k = 0 ; k < 5 - i ; k++) {
 //                System.out.print("*");
 //            }
 //
