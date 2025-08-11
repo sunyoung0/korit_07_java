@@ -10,6 +10,12 @@ public class Computer implements Power {
     public void off() {
         System.out.println("컴퓨터의 전원을 끕니다.");
     }
+
+    // downcasting 에 앞서 고유 메서드들 하나씩 정의하겠습니다.
+    public void compute() {
+        System.out.println("컴퓨터가 연산을 수행합니다.");
+    }
+
 }
 
 /*
@@ -19,7 +25,7 @@ public class Computer implements Power {
     implement 하게 되면 이상의 세 클래스들은 강제적으로 on() / off() 메서드들을 override 해야만 합니다.
 
     그래서 Computer /  AirConditioner / Speaker 객체들을
-    전부 Poser로 업캐스팅 시키게 된다면
+    전부 Power로 업캐스팅 시키게 된다면
     Computer /  AirConditioner / Speaker 객체의 원래 클래스와 상관없이
     Power 클래스의 조작만으로 on() / off() 메서드를 호출시키는 것이 가능합니다.
 
