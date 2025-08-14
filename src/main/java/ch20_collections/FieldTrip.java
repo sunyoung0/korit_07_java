@@ -36,10 +36,10 @@ public class FieldTrip {
         int student = scanner.nextInt();
 
         List<String> fieldTrips = new ArrayList<>();
-        String trip = "";
+//        String trip = "";   // 최종 결과 얘는 fieldTrips List의 맨 마지막 element 와 동일한 값을 가지게 됨 -> 반복문에 지역변수로 선언
         for (int i = 0; i < student; i++) {
             System.out.print((i+1) + "번 학생의 수학 여행지를 입력하세요 >>> ");
-            trip = scanner.next();
+            String trip = scanner.next();
             fieldTrips.add(trip);
         }
 
